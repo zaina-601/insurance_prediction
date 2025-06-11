@@ -1,0 +1,44 @@
+name: insurance_claim_prediction
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  onnxruntime: ^1.4.1
+  syncfusion_flutter_charts: ^29.2.9
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.4.0
+  syncfusion_flutter_datagrid: ^29.2.9
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/data/analysis_results.json
+    - assets/data/sample_data.json
+    - assets/images/heatmap.png
+    - assets/images/wajeeha.jpg
+    - assets/images/waleejah.jpg
+    - assets/images/zainab.jpg
+    - assets/images/sadiaa.jpg
+
+
